@@ -1,0 +1,42 @@
+{
+  "name": "linkedin-automation-tool",
+  "version": "1.0.0",
+  "description": "Puppeteer-based automation tool for LinkedIn job scraping and auto-application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "setup": "node scripts/setup.js",
+    "test": "node scripts/test-system.js",
+    "test-concurrency": "node scripts/test-concurrency.js",
+    "scrape-jobs": "node scripts/scrape-jobs.js",
+    "track-applications": "node scripts/track-applications.js",
+    "scrape-companies": "node scripts/scrape-companies.js",
+    "auto-apply": "node scripts/auto-apply.js"
+  },
+  "keywords": ["linkedin", "automation", "puppeteer", "job-scraping", "auto-apply"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "cheerio": "^1.0.0",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.0",
+    "sqlite3": "^5.1.7",
+    "express": "^4.19.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "rate-limiter-flexible": "^5.0.3",
+    "user-agents": "^1.1.21",
+    "proxy-agent": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  }
+}
