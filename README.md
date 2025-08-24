@@ -32,7 +32,7 @@ A comprehensive Puppeteer-based automation tool for LinkedIn that provides job s
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/adityadwic/Linkedin-Web-Scrapping-with-Puppeter.git
    cd linkedin-automation-tool
    ```
 
